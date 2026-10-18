@@ -1159,6 +1159,7 @@ export const RightPanel: React.FC<RightPanelProps> = ({
                   {settings.background.type}
                 </span>
               </div>
+              <div className="grid grid-cols-2 gap-2">
                 {[
                   { id: 'dark-wood', label: 'Acoustic Slat Wood', tag: 'Luxury' },
                   { id: 'subway-tile', label: 'Glossy Metro Tile', tag: 'Ceramic' },
